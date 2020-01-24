@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.grey-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  background-color: grey;
+  height: 60px;
+}
+
+.company {
+  color: white;
+  margin-left: 50px;
+  font-size: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  color: white;
+}
+
+.txt-box {
+  margin-right: 40px;
+}
+
+.black-sec {
+  background-color: black;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.yellow {
+  color: yellow;
+  font-size: 90px;
+}
+
+.square-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  height: 400px;
+}
+
+.green-square {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: rgb(97, 255, 176);
+}
+
+.rect-sec {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.orange-rect1 {
+  height: 300px;
+  width: 575px;
+  background-color: rgb(250, 174, 34);
+  margin-left: 75px;
+}
+
+.orange-rect2 {
+  height: 300px;
+  width: 575px;
+  background-color: rgb(250, 174, 34);
+  margin-right: 75px;
+}
+
+.elephant-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+}
+.text {
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.elephant-pic {
+  height: 200px;
+  width: 350px;
+  margin-right: 75px;
+}
+
+.footer {
+  height: 150px;
+  background-color: rgb(53, 50, 80);
+}
